@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+body{
+    font-family: 'Merriweather', serif;
+    box-sizing: border-box;
+    margin: 0px auto;  
+margin: 0px auto;
+}
+/* Navbar */
+nav{
+    margin: auto;
+    display: flex;
+    width: 1150px;
+    justify-content: space-between;
+}
+nav .nav-brand{
+    font-size: 25px;
+    font-weight: 700;
+    color: #3A3A3A;
+    padding: 20px 0;
+}
+nav a{
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+nav ul li {
+    margin-right: 30px;
+    list-style: none;
+}
+nav ul li a{
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 500;
+    padding:5px;
+    
+}
+nav ul li a:hover {
+        color: white;
+        background: #3A3A3A;
+}
+/* Main part */
+section{
+   margin:150px 0px;
+}
+.journey{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 1200px;
+    margin: 70px auto;
+   
+   
+   
+
+}
+.half-width{
+    
+    box-sizing: border-box;
+}
+.button{
+    color: white;
+    background-color: #E02C6D;
+    margin-top: 20px;
+}
+.button:hover{
+    background-color: white;
+    color:#E02C6D ;
+    border: 1.5px solid #E02C6D;
+    font-weight: 900px;
+
+}
+.button:hover i{
+    transition: 1.3s ease-in-out ;
+    padding-left: 20px;
+}
+.first-half{
+    padding: 7% 0% 10% 10%
+   
+
+}
+.first-half a{
+
+    display: inline-block;
+    padding: 5px 10px;
+
+    text-decoration: none;
+    font-size:12px ;
+    border-radius:10px;
+
+}
+.first-half .faw{
+   
+   padding-left: 13px;
+}
+.second-half img{
+    /* width: 70%; */
+    width: 402px;
+    height: 402px;
+
+ background-image: url(/images/Circle\ design.svg);
+ background-size: cover;
+ 
+
+}
+.second-half:hover img{
+    transition: 1.2s ease-in-out;
+    transform: scale(1.25);
+}
+.second-half{
+   display: flex;
+   justify-content: end;
+
+}
+/* Logo Part */
+.brand-logos{
+width: 1100px;
+
+margin: 70px auto;
+display: grid;
+grid-template-columns: repeat(7,1fr);
+align-items: center;
+padding-left: 10px;
+}
+/* .brand-logos:hover img{
+    transition: 1.2s ease-in-out;
+    transform: scale(1.2);
+
+} */
+
+/* Popular Collection */
+.popular{
+    /* margin: 0px auto; */
+    height: 1760px;
+    width: 1050px;
+    margin: 70px auto;
+
+}
+.popular-collection{
+    display: grid;
+    grid-template-columns: repeat(3,329px);
+    grid-template-rows: repeat(3,510px);  
+    justify-content: space-around;
+    grid-row-gap: 40px;
+    
+    
+}
+.text-middle{
+    text-align: center;
+    padding: 20px 0px;
+}
+.gold{
+    color: gold;
+    margin-right: 25px;
+}
+.border-all img{
+    width: 300px;
+    height: 250px;
+   
+}
+.border-all:hover img{
+    transition: 1.1s ease-in-out;
+    transform: scale(.9);
+}
+.border-all{
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow:  5px 5px 5px 5px rgba(0, 0, 0, 0.05);
+  padding:15px;
+}
+.gray{
+    color: #787885;
+}
+.pink{
+    padding-top: 10px;
+        color: #E02C6D;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.arrow{
+    padding-left: 10px;
+}
+/* Customer review */
+.customer-review{
+    width: 1050px;
+    margin: 70px auto;
+
+}
+.cust-line{
+    text-align: center;
+}
+.cust-grid{
+    display: grid;
+    grid-template-columns: repeat(3,329px);
+    grid-template-rows: repeat(1,510px); 
+    justify-content: space-around;
+    grid-row-gap: 40px;
+}
+#ronaldo{
+    background-image: url(/images/ron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    color: white;
+    background-blend-mode: overlay;
+    position: relative;
+    
+}
+#ronaldo p{
+    color: white;
+}
+#messi{
+    background-image: url(/images/messi.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    color: white;
+    background-blend-mode: overlay;
+    position: relative;
+    
+}
+#messi p{
+    color: white;
+}
+#dinho{
+    background-image: url(/images/dinho.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    color: white;
+    background-blend-mode: overlay;
+    position: relative;
+    
+}
+#dinho p{
+    color: white;
+}
+.star{
+    color: cyan;
+}
+.point{
+    padding-left: 25px;
+color: cyan;
+font-weight: 900;
+
+}
+.bottom{
+    position: absolute;
+    bottom: 0px;
+    
+}
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0A0826;
+    color: white;
+    padding:25px 0px;
+    height: 220px;
+    line-height: 1px;
+
+}
+.fot:hover{
+    transition: .9s ease-in-out;
+    color: turquoise;
+}
+
+.fot-clr{
+    color: #D9DBE1;
+}
