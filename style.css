@@ -98,7 +98,7 @@ section{
     width: 402px;
     height: 402px;
 
- background-image: url(/images/Circle\ design.svg);
+ background-image: url(images/Circle\ design.svg);
  background-size: cover;
  
 
@@ -248,7 +248,7 @@ width: 95%;
     grid-row-gap: 40px;
 }
 #ronaldo{
-    background-image: url(/images/ron.jpg);
+    background-image: url(images/ron.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
@@ -262,7 +262,7 @@ width: 95%;
     color: white;
 }
 #messi{
-    background-image: url(/images/messi.jfif);
+    background-image: url(images/messi.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
@@ -276,7 +276,7 @@ width: 95%;
     color: white;
 }
 #dinho{
-    background-image: url(/images/dinho.jpg);
+    background-image: url(images/dinho.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
