@@ -1,114 +1,17 @@
 /* Tab size */
 @media (min-width:500px) and (max-width:1000px) {
- nav{
-     display: none;
- }
- .top{
-     width: 90%;
- }
- .journey{
-     width: 70%;
-     display:grid;
-     grid-template-columns: repeat(1,0fr);
-     justify-content: center;
-     grid-row-gap: 30px;
- }
- .second-half:hover img{
-
-    transform: scale(.8);
- }
- .brand-logos{
-     width: 70%;
-     margin: 20px auto;
-display: grid;
-grid-template-columns: repeat(3,1fr);
-
-
-grid-gap: 20px;
-margin: 0px auto;
- }
- .logo{
-     display: flex;
-     justify-content: center;
- }
- .popular{
-    /* margin: 0px auto; */
-    
-    width: 90%;
-    margin: auto;
-    text-align: center;
-
-}
-.popular-collection{
-    display: grid;
-    grid-template-columns: repeat(2,50%);
-    grid-template-rows: repeat(5,1fr);  
-    justify-content: space-around;
-    grid-gap: 10px;   
-}
-.popular-collection img{
-width: 180px;
-height: 40%;
-position: relative;
-
-border-radius: 40%;
-}
-.customer-review{
-    width: 80%;
-    
-    margin-top:750px;
-    
-}
-.cust-line{
-    text-align: center;
-}
-.cust-grid{
-    display: grid;
-    grid-template-columns: repeat(1,50%);
-    grid-template-rows: repeat(1,200px); 
-    justify-content: space-around;
-    grid-row-gap: 40px;
-    margin-left: 50px;
-}
-#ronaldo{
-    
-    height: 400px;
-}
-#messi{
-   margin-top: 200px;
-   height: 400px;
-}
-#dinho{
-    
-   height: 400px;
-}
-.picture{
-    width: 250px;
-   text-align: center;
-   position: relative;
-  
-}
-}
-@media  (max-width:499px) {
     nav{
         display: none;
     }
     .top{
         width: 90%;
-        text-align: center;
     }
     .journey{
-        width: 50%;
+        width: 70%;
         display:grid;
         grid-template-columns: repeat(1,0fr);
-        justify-content: center !important;
-        grid-row-gap: 10px;
-        left: 50%;
-    }
-    .second-half img{
-        width: 150px;
-        height: 150px;
-
+        justify-content: center;
+        grid-row-gap: 30px;
     }
     .second-half:hover img{
    
@@ -118,7 +21,7 @@ border-radius: 40%;
         width: 70%;
         margin: 20px auto;
    display: grid;
-   grid-template-columns: repeat(2,1fr);
+   grid-template-columns: repeat(3,1fr);
    
    
    grid-gap: 20px;
@@ -137,33 +40,27 @@ border-radius: 40%;
    
    }
    .popular-collection{
-       box-sizing: border-box;
        display: grid;
-       grid-template-columns: repeat(1,50%);
-       grid-template-rows: repeat(9,1fr);  
+       grid-template-columns: repeat(2,50%);
+       grid-template-rows: repeat(5,1fr);  
        justify-content: space-around;
        grid-gap: 10px;   
    }
-   .popular h2{
-       font-size: 20px;   
-    }
    .popular-collection img{
-   width: 100px;
-   height: 20%;
+   width: 180px;
+   height: 40%;
    position: relative;
-   overflow: scroll;
+   
    border-radius: 20px;
    }
    .customer-review{
        width: 80%;
-       margin-right:550px ;
        
-       margin-top:2450px;
+       margin-top:750px;
        
    }
    .cust-line{
        text-align: center;
-       margin-left: 100px;
    }
    .cust-grid{
        display: grid;
@@ -171,20 +68,19 @@ border-radius: 40%;
        grid-template-rows: repeat(1,200px); 
        justify-content: space-around;
        grid-row-gap: 40px;
-       margin-right: 100px;
+       margin-left: 50px;
    }
    #ronaldo{
        
-       height: 300px;
-      
+       height: 400px;
    }
    #messi{
-      margin-top: 100px;
-      height: 300px;
+      margin-top: 200px;
+      height: 400px;
    }
    #dinho{
        
-      height: 300px;
+      height: 400px;
    }
    .picture{
        width: 250px;
@@ -192,4 +88,108 @@ border-radius: 40%;
       position: relative;
      
    }
-}
+   }
+   @media  (max-width:499px) {
+       nav{
+           display: none;
+       }
+       .top{
+           width: 90%;
+           text-align: center;
+       }
+       .journey{
+           width: 50%;
+           display:grid;
+           grid-template-columns: repeat(1,0fr);
+           justify-content: center !important;
+           grid-row-gap: 10px;
+           left: 50%;
+       }
+       .second-half img{
+           width: 150px;
+           height: 150px;
+   
+       }
+       .second-half:hover img{
+      
+          transform: scale(.8);
+       }
+       .brand-logos{
+           width: 70%;
+           margin: 20px auto;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      
+      
+      grid-gap: 20px;
+      margin: 0px auto;
+       }
+       .logo{
+           display: flex;
+           justify-content: center;
+       }
+       .popular{
+          /* margin: 0px auto; */
+          
+          width: 90%;
+          margin: auto;
+          text-align: center;
+      
+      }
+      .popular-collection{
+          box-sizing: border-box;
+          display: grid;
+          grid-template-columns: repeat(1,50%);
+          grid-template-rows: repeat(9,1fr);  
+          justify-content: space-around;
+          grid-gap: 10px;   
+      }
+      .popular h2{
+          font-size: 20px;   
+       }
+      .popular-collection img{
+      width: 100px;
+      height: 20%;
+      position: relative;
+      overflow: scroll;
+      border-radius: 20px;
+      }
+      .customer-review{
+          width: 80%;
+          margin-right:550px ;
+          
+          margin-top:2450px;
+          
+      }
+      .cust-line{
+          text-align: center;
+          margin-left: 100px;
+      }
+      .cust-grid{
+          display: grid;
+          grid-template-columns: repeat(1,50%);
+          grid-template-rows: repeat(1,200px); 
+          justify-content: space-around;
+          grid-row-gap: 40px;
+          margin-right: 100px;
+      }
+      #ronaldo{
+          
+          height: 300px;
+         
+      }
+      #messi{
+         margin-top: 100px;
+         height: 300px;
+      }
+      #dinho{
+          
+         height: 300px;
+      }
+      .picture{
+          width: 250px;
+         text-align: center;
+         position: relative;
+        
+      }
+   }
