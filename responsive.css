@@ -1,8 +1,15 @@
 /* Tab size */
 @media (min-width:500px) and (max-width:1000px) {
     nav{
-        display: none;
+        padding-left: 150px;
     }
+    nav .nav-brand:hover{
+        transition: 1.2s ease-in-out;
+       transform: scale(1.5);
+    }
+   .hide{
+       display: none;
+   }
     .top{
         width: 90%;
     }
@@ -91,8 +98,15 @@
    }
    @media  (max-width:499px) {
        nav{
-           display: none;
+           padding-left: 40px;
        }
+       nav .nav-brand:hover{
+        transition: 1.2s ease-in-out;
+       transform: scale(1.1);
+    }
+      .hide{
+          display: none;
+      }
        .top{
            width: 90%;
            text-align: center;
