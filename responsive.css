@@ -1,7 +1,8 @@
 /* Tab size */
 @media (min-width:500px) and (max-width:1050px) {
     nav{
-        padding-left: 150px;
+width: 300px;
+        padding-left: 10px;
     }
     nav .nav-brand:hover{
         transition: 1.2s ease-in-out;
