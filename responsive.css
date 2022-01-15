@@ -99,7 +99,8 @@ width: 300px;
    }
    @media  (max-width:499px) {
        nav{
-           padding-left: 40px;
+           width:150px;
+           padding-left: 10px;
        }
        nav .nav-brand:hover{
         transition: 1.2s ease-in-out;
