@@ -38,8 +38,11 @@ nav ul li a{
     
 }
 nav ul li a:hover {
+    transition: 1.5s ease-in-out;
         color: white;
-        background: #3A3A3A;
+        background: #999090;
+        border-radius: 40px;
+        padding: 4px 10px;
 }
 /* Main part */
 section{
@@ -69,16 +72,12 @@ section{
     color:#E02C6D ;
     border: 1.5px solid #E02C6D;
     font-weight: 900px;
+    transition: .5s ease-in-out ;
 
 }
 .button:hover i{
-    transition: 1.3s ease-in-out ;
+    transition: 1.7s ease-in-out ;
     padding-left: 20px;
-}
-.first-half{
-    padding: 7% 0% 10% 10%
-   
-
 }
 .first-half a{
 
@@ -117,12 +116,43 @@ section{
 .brand-logos{
 width: 1100px;
 
-margin: 70px auto;
+
+margin: 20px auto;
 display: grid;
-grid-template-columns: repeat(7,1fr);
+grid-template-columns: repeat(6,1fr);
 align-items: center;
 padding-left: 10px;
 }
+.HR{
+    
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+    width: 150px;
+    animation: HR 3s ease-in-out  infinite alternate;
+    animation-play-state: running;
+}
+@keyframes HR {
+    0%
+    {
+        width: 10%;
+    }
+    25%{
+     
+        width: 25%;
+    }
+    50%{
+        
+width: 50%;
+    }
+    75%{     
+        width: 75%;
+    }
+    100%{       
+width: 95%;
+    }
+    
+}
+
 /* .brand-logos:hover img{
     transition: 1.2s ease-in-out;
     transform: scale(1.2);
@@ -172,12 +202,31 @@ padding-left: 10px;
 .gray{
     color: #787885;
 }
+.pink-main{
+    position: relative;
+}
 .pink{
-    padding-top: 10px;
-        color: #E02C6D;
-    display: flex;
-    justify-content: end;
-    align-items: center;
+    color: white;
+    background-color: #E02C6D;
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    
+}
+.pink:hover{
+    background-color: white;
+    color:#E02C6D ;
+    border: 1.5px solid #E02C6D;
+    font-weight: 900px;
+    transition: .5s ease-in-out ;
+    border-radius: 40px;
+
+}
+.pink:hover i{
+    transition: 1.7s ease-in-out ;
+    padding-left: 20px;
 }
 .arrow{
     padding-left: 10px;
@@ -254,6 +303,45 @@ font-weight: 900;
     bottom: 0px;
     
 }
+.circle{
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: cyan;
+    animation: ball 6s ease-in-out  infinite alternate ;
+    animation-play-state: running;
+    position: relative;
+    transform: translate(0px);
+    transition:transfrom 3s;
+}
+@keyframes ball {
+    0%{
+left: 0px;
+    }
+    25%{
+        transform: scale(.6);
+        left: 25%;
+        background-color: rgb(205, 212, 142);
+
+    }
+    50%{
+        left: 47%;
+        transform: scale(.3);
+        background-color: rgb(167, 41, 58);
+
+    }
+    75%{
+        transform: scale(.6);
+        left: 70%;
+background-color: rgb(226, 56, 189);
+    }
+    100%{
+left: 86%;
+background-color: cyan;
+    }
+    
+}
 
 /* Footer */
 footer{
@@ -269,7 +357,7 @@ footer{
 
 }
 .fot:hover{
-    transition: .9s ease-in-out;
+    transition: .5s ease-in-out;
     color: turquoise;
 }
 
